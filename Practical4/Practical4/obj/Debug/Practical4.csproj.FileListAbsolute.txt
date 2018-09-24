@@ -1,0 +1,12 @@
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical4\bin\Debug\Practical4.exe.config
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical4\bin\Debug\Practical4.exe
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical4\bin\Debug\Practical4.pdb
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical4\obj\Debug\Practical4.csprojResolveAssemblyReference.cache
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical4\obj\Debug\Practical4.Form1.resources
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical4\obj\Debug\Practical4.Properties.Resources.resources
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical4\obj\Debug\Practical4.csproj.GenerateResource.Cache
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical4\obj\Debug\Practical4.exe
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical4\obj\Debug\Practical4.pdb
+H:\Git\repos\Assignments\Practical4\Practical4\bin\Debug\Practical4.exe.config
+H:\Git\repos\Assignments\Practical4\Practical4\obj\Debug\Practical4.exe
+H:\Git\repos\Assignments\Practical4\Practical4\obj\Debug\Practical4.pdb
