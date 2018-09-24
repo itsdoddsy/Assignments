@@ -1,0 +1,19 @@
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical5\bin\Debug\Practical5.exe.config
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical5\bin\Debug\Practical5.exe
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical5\bin\Debug\Practical5.pdb
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical5\obj\Debug\Practical5.csprojResolveAssemblyReference.cache
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical5\obj\Debug\Practical5.Form1.resources
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical5\obj\Debug\Practical5.Properties.Resources.resources
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical5\obj\Debug\Practical5.csproj.GenerateResource.Cache
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical5\obj\Debug\Practical5.exe
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical5\obj\Debug\Practical5.pdb
+H:\Git\repos\Assignments\Practical5\Practical5\bin\Debug\Practical5.exe.config
+H:\Git\repos\Assignments\Practical5\Practical5\obj\Debug\Practical5.exe
+H:\Git\repos\Assignments\Practical5\Practical5\obj\Debug\Practical5.pdb
+H:\Git\repos\Assignments\Practical5\Practical5\obj\Debug\Practical5.csprojResolveAssemblyReference.cache
+H:\Git\repos\Assignments\Practical5\Practical5\obj\Debug\Practical5.Form1.resources
+H:\Git\repos\Assignments\Practical5\Practical5\obj\Debug\Practical5.Properties.Resources.resources
+H:\Git\repos\Assignments\Practical5\Practical5\obj\Debug\Practical5.csproj.GenerateResource.Cache
+H:\Git\repos\Assignments\Practical5\Practical5\bin\Debug\Practical5.exe
+H:\Git\repos\Assignments\Practical5\Practical5\bin\Debug\Practical5.pdb
+H:\Git\repos\Assignments\Practical5\Practical5\bin\Debug\NCalc.dll
