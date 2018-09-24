@@ -1,0 +1,12 @@
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical3\bin\Debug\Practical3.exe.config
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical3\bin\Debug\Practical3.exe
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical3\bin\Debug\Practical3.pdb
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical3\obj\Debug\Practical3.csprojResolveAssemblyReference.cache
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical3\obj\Debug\Practical3.Properties.Resources.resources
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical3\obj\Debug\Practical3.csproj.GenerateResource.Cache
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical3\obj\Debug\Practical3.exe
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical3\obj\Debug\Practical3.pdb
+C:\Users\Jack\AppData\Local\Temporary Projects\Practical3\obj\Debug\Practical3.Form1.resources
+H:\Git\repos\Assignments\Practical3\Practical3\Practical3\bin\Debug\Practical3.exe.config
+H:\Git\repos\Assignments\Practical3\Practical3\Practical3\obj\Debug\Practical3.exe
+H:\Git\repos\Assignments\Practical3\Practical3\Practical3\obj\Debug\Practical3.pdb
