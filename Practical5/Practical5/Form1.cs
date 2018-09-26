@@ -19,17 +19,25 @@ namespace Practical5
 
         private void button1_Click(object sender, EventArgs e)
         {
-            decimal operand1; // = Convert.ToDecimal(txtOp1.Text);
-            decimal operand2; // = Convert.ToDecimal(txtOp2.Text);
             string modifier = Convert.ToString(txtOperator.Text);
             string[] acceptedModifiers = { "+", "-", "/", "*" };
 
-            if (!Decimal.TryParse(txtOp1.Text, out operand1))
+            if (!Decimal.TryParse(txtOp1.Text, out decimal operand1))
+                if (txtOp1.Text == "")
+                    MessageBox.Show("You didn't enter a value for operand 1!");
+                else
                 MessageBox.Show("Operand 1 is incorrect");
-            if (!Decimal.TryParse(txtOp2.Text, out operand2))
+
+            if (!Decimal.TryParse(txtOp2.Text, out decimal operand2))
+                if (txtOp2.Text == "")
+                    MessageBox.Show("You didn't enter a value for operand 2!");
+                else
                 MessageBox.Show("Operand 2 is incorrect");
 
-            if(!acceptedModifiers.Any(modifier.Contains))
+            if (!acceptedModifiers.Any(modifier.Contains))
+                if (modifier == "")
+                    MessageBox.Show("You didn't enter an operator. Do you know what you're doing?");
+                else
                 MessageBox.Show("You are not using an accepted operator. " +
                     "Accepted modifiers are: \n+, -, /, *");
 

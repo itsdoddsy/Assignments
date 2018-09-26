@@ -17,3 +17,13 @@ H:\Git\repos\Assignments\Practical5\Practical5\obj\Debug\Practical5.csproj.Gener
 H:\Git\repos\Assignments\Practical5\Practical5\bin\Debug\Practical5.exe
 H:\Git\repos\Assignments\Practical5\Practical5\bin\Debug\Practical5.pdb
 H:\Git\repos\Assignments\Practical5\Practical5\bin\Debug\NCalc.dll
+E:\Git\repos\Assignments\Practical5\Practical5\obj\Debug\Practical5.csprojAssemblyReference.cache
+E:\Git\repos\Assignments\Practical5\Practical5\obj\Debug\Practical5.Form1.resources
+E:\Git\repos\Assignments\Practical5\Practical5\obj\Debug\Practical5.Properties.Resources.resources
+E:\Git\repos\Assignments\Practical5\Practical5\obj\Debug\Practical5.csproj.GenerateResource.cache
+E:\Git\repos\Assignments\Practical5\Practical5\obj\Debug\Practical5.csproj.CoreCompileInputs.cache
+E:\Git\repos\Assignments\Practical5\Practical5\obj\Debug\Practical5.exe
+E:\Git\repos\Assignments\Practical5\Practical5\obj\Debug\Practical5.pdb
+E:\Git\repos\Assignments\Practical5\Practical5\bin\Debug\Practical5.exe.config
+E:\Git\repos\Assignments\Practical5\Practical5\bin\Debug\Practical5.exe
+E:\Git\repos\Assignments\Practical5\Practical5\bin\Debug\Practical5.pdb
