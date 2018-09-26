@@ -141,7 +141,10 @@
             this.Controls.Add(this.txtOp1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnCalculate);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Simple Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
