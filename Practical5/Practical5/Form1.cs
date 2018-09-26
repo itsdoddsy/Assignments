@@ -22,39 +22,49 @@ namespace Practical5
             string modifier = Convert.ToString(txtOperator.Text);
             string[] acceptedModifiers = { "+", "-", "/", "*" };
 
-            if (!Decimal.TryParse(txtOp1.Text, out decimal operand1))
-                if (txtOp1.Text == "")
-                    MessageBox.Show("You didn't enter a value for operand 1!");
-                else
-                MessageBox.Show("Operand 1 is incorrect");
-
-            if (!Decimal.TryParse(txtOp2.Text, out decimal operand2))
-                if (txtOp2.Text == "")
-                    MessageBox.Show("You didn't enter a value for operand 2!");
-                else
-                MessageBox.Show("Operand 2 is incorrect");
-
-            if (!acceptedModifiers.Any(modifier.Contains))
-                if (modifier == "")
-                    MessageBox.Show("You didn't enter an operator. Do you know what you're doing?");
-                else
-                MessageBox.Show("You are not using an accepted operator. " +
-                    "Accepted modifiers are: \n+, -, /, *");
-
-            if (txtOp2.Text == "0" && modifier == "/")
-                MessageBox.Show("Stop that.");
-
-
-            DataTable dt = new DataTable();
-            var result = dt.Compute(operand1 + modifier + operand2, "");
             
-            txtResult.Text = Convert.ToString(result);
 
+            if (IsPresent(txtOp1, "Operand 1") && IsValid(txtOp1, "Operand 1") &&
+            IsPresent(txtOp2, "Operand 2") && IsValid(txtOp2, "Operand 2") &&
+            IsPresent(txtOperator, "the Operator"))
+            {
+
+                if (txtOp2.Text == "0" && modifier == "/")
+                    MessageBox.Show("Stop that.");
+
+                if (!acceptedModifiers.Any(modifier.Contains))
+                    MessageBox.Show("You are not using an accepted operator. " +
+                        "Accepted modifiers are: \n+, -, /, *");
+                else
+                {
+                    DataTable dt = new DataTable();
+                    var result = dt.Compute(txtOp1.Text + txtOperator.Text + txtOp2.Text, "");
+                    txtResult.Text = Convert.ToString(result);
+                }
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private bool IsPresent(TextBox txtBox, string text)
+        {
+            bool present = false;
+            if (txtBox.Text == "")
+                MessageBox.Show($"You didn't enter a value for {text}!");
+            else present = true;
+            return present;
+        }
+
+        private bool IsValid(TextBox txtBox, string text)
+        {
+            bool valid = false;
+            if (!Decimal.TryParse(txtBox.Text, out decimal dec))
+                MessageBox.Show($"You've entered an incorrect value for {text}!");
+            else valid = true;
+            return valid;
         }
     }
 }
